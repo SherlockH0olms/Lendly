@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* 60-30-10 Color System - Professional Bank-Grade */
+
+    /* 60% - Dominant (Backgrounds & Surfaces) */
+    --background: 210 20% 98%;
+    /* #FAFBFC - Lighter, cleaner */
+    --card: 0 0% 100%;
+    /* #FFFFFF - Pure white cards */
+    --muted: 210 15% 97%;
+    /* #F5F7FA - Alternate surface */
+
+    /* 30% - Secondary (Brand & Navigation) */
+    --primary: 196 68% 19%;
+    /* #0F3D4D - Deeper teal (more professional) */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 33 22% 40%;
+    /* #6B5D4F - Warmer brown */
+    --secondary-foreground: 0% 100%;
+
+    /* 10% - Accent (CTAs & Highlights) */
+    --accent: 188 62% 34%;
+    /* #1E7C8C - Ocean blue for actions */
+    --accent-foreground: 0 0% 100%;
+
+    /* Semantic Colors */
+    --success: 174 62% 34%;
+    /* #21808D - Teal success */
+    --warning: 14 77% 64%;
+    /* #E68161 - Coral warning */
+    --destructive: 351 82% 42%;
+    /* #C0152F - Red error */
+    --info: 207 76% 57%;
+    /* #4A90E2 - Blue info */
+
+    /* Text Colors */
+    --foreground: 180 3% 12%;
+    /* #1F2121 - Almost black */
+    --muted-foreground: 180 6% 40%;
+    /* #626C71 - Medium gray */
+
+    /* UI Elements */
+    --border: 210 15% 90%;
+    /* #E5E7EB - Light border */
+    --input: 210 15% 90%;
+    --ring: 196 68% 19%;
+    /* Primary color for focus rings */
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 180 3% 12%;
+    --card-foreground: 180 3% 12%;
+
+    --radius: 0.5rem;
+    /* 8px - Base radius */
+  }
+
+  .dark {
+    --background: 180 3% 12%;
+    --foreground: 210 20% 98%;
+    --card: 180 3% 15%;
+    --card-foreground: 210 20% 98%;
+    --popover: 180 3% 15%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 188 62% 34%;
+    --primary-foreground: 180 3% 12%;
+    --secondary: 33 22% 40%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 180 6% 20%;
+    --muted-foreground: 180 9% 65%;
+    --accent: 188 62% 34%;
+    --accent-foreground: 180 3% 12%;
+    --destructive: 351 82% 42%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 180 6% 20%;
+    --input: 180 6% 20%;
+    --ring: 188 62% 34%;
+    --success: 174 62% 34%;
+    --warning: 14 77% 64%;
+    --info: 207 76% 57%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');

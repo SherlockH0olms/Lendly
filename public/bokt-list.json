@@ -1,0 +1,70 @@
+{
+    "bokts": [
+        {
+            "id": "bokt-1",
+            "name": "MCB BOKT",
+            "logo": "/logos/mcb.png",
+            "minimum_score": 2.5,
+            "interest_rate_range": "18-24%",
+            "max_amount": 100000,
+            "credit_products": [
+                {
+                    "id": "mcb-business",
+                    "name": "Biznes Krediti",
+                    "min_amount": 5000,
+                    "max_amount": 100000,
+                    "min_term": 6,
+                    "max_term": 36,
+                    "interest_rate": 20
+                },
+                {
+                    "id": "mcb-equipment",
+                    "name": "Avadanlıq Krediti",
+                    "min_amount": 10000,
+                    "max_amount": 80000,
+                    "min_term": 12,
+                    "max_term": 48,
+                    "interest_rate": 18
+                }
+            ]
+        },
+        {
+            "id": "bokt-2",
+            "name": "KredAqro BOKT",
+            "logo": "/logos/kredaqro.png",
+            "minimum_score": 2.0,
+            "interest_rate_range": "22-28%",
+            "max_amount": 50000,
+            "credit_products": [
+                {
+                    "id": "ka-micro",
+                    "name": "Mikro Kredit",
+                    "min_amount": 1000,
+                    "max_amount": 25000,
+                    "min_term": 3,
+                    "max_term": 24,
+                    "interest_rate": 24
+                }
+            ]
+        },
+        {
+            "id": "bokt-3",
+            "name": "Qafqaz Kredit BOKT",
+            "logo": "/logos/qafqaz.png",
+            "minimum_score": 3.0,
+            "interest_rate_range": "16-22%",
+            "max_amount": 150000,
+            "credit_products": [
+                {
+                    "id": "qk-working-capital",
+                    "name": "Dövriyyə Kapitalı",
+                    "min_amount": 20000,
+                    "max_amount": 150000,
+                    "min_term": 12,
+                    "max_term": 60,
+                    "interest_rate": 18
+                }
+            ]
+        }
+    ]
+}

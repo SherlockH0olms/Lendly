@@ -1,0 +1,46 @@
+{
+    "users": [
+        {
+            "id": "demo-kobi-1",
+            "voen": "1234567890",
+            "company_name": "TechHub MMC",
+            "company_age": 4,
+            "monthly_revenue": 65000,
+            "net_profit": 12000,
+            "tax_debt": 0,
+            "sector": "IT",
+            "employee_count": 15,
+            "cashflow_positive": true,
+            "owner_name": "Əli Məmmədov",
+            "email": "ali@techhub.az"
+        },
+        {
+            "id": "demo-kobi-2",
+            "voen": "9876543210",
+            "company_name": "GülShop MMC",
+            "company_age": 1,
+            "monthly_revenue": 18000,
+            "net_profit": 2000,
+            "tax_debt": 1500,
+            "sector": "Ticarət",
+            "employee_count": 4,
+            "cashflow_positive": false,
+            "owner_name": "Leyla İsmayılova",
+            "email": "leyla@gulshop.az"
+        },
+        {
+            "id": "demo-kobi-3",
+            "voen": "5555555555",
+            "company_name": "BuildPro MMC",
+            "company_age": 6,
+            "monthly_revenue": 120000,
+            "net_profit": 25000,
+            "tax_debt": 0,
+            "sector": "Tikinti",
+            "employee_count": 35,
+            "cashflow_positive": true,
+            "owner_name": "Rəşad Həsənov",
+            "email": "rashad@buildpro.az"
+        }
+    ]
+}
